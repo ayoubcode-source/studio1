@@ -1,0 +1,241 @@
+#homesection{
+    height: 20rem;
+}
+
+.checkout-container{
+     height: 100rem;
+     padding-top: 50px;
+     padding: 100px 70px;
+     background-color: whitesmoke;
+}
+
+#notice{
+    font-size: 14px;
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius:8px ;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+#notice p{
+    margin: 0;
+    color: #272727;
+}
+
+#checkout-process{
+    width: 100%;
+    height: 70rem;
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #6c757d;
+    outline: none;
+}
+
+span{
+    color: red;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    padding: 14px 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+
+label{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.state-name {
+    display: flex;
+    justify-content: space-between;
+}
+.state-name div{
+    width:48%;
+}
+
+.Billing-details{
+    background-color: white;
+    border: 1px solid rgb(165, 165, 165);
+    width: 100%;
+    padding: 0 50px;
+
+}
+
+
+
+
+#Billing-details{
+     color: #272727;
+    width: 100%;
+}
+
+.name-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input div{
+    width: 48%;
+}
+
+.address .street-input{
+    margin-bottom: 10px;
+}
+
+.state-name-container{
+    margin-bottom: 50px;
+}
+
+/* Style the label */
+.toggle-label {
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    color: #272727;
+}
+
+/* Initially hide the collapsible content */
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ;
+}
+
+/* When the checkbox is checked, expand the content */
+#toggle:checked + .toggle-label + .collapsible-content {
+    max-height: fit-content; /* Adjust height as necessary */
+    transition: max-height 0.5s ;
+}
+#toggle,#ship{
+    width: 10px;
+    margin-right: 5px;
+}
+
+#ship:checked + .toggle-label + .collapsible-content {
+    max-height: fit-content; /* Adjust height as necessary */
+    transition: max-height 0.5s ;
+}
+
+.coupon-code{
+    width: 100%;
+}
+
+
+.coupon-check{
+    padding: 50px;
+    border: 1px solid rgb(165, 165, 165);
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.coupon-check p{
+    color: #272727;
+}
+
+form{
+    width: 100%;
+}
+
+form input{
+    width: fit-content;
+    height: 50px;
+}
+
+form button{
+    font-size: 14px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #272727;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}
+
+button:hover{
+    background-color: #121212;
+}
+
+.your-order{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(165, 165, 165);
+    display: block;
+    padding: 60px 40px;
+
+}
+.order-title{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 27rem;
+    height: 13rem;
+    margin-bottom: 40x;
+}
+
+.table-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+
+table thead{
+    border-bottom: 2px solid #272727;
+    padding: 10px;
+    height: 40px;
+}
+
+#collapse .container{
+    width: 100%;
+    padding: 0;
+}
+#collapse a{
+    color: #272727;
+    font-size: 15px;
+    margin: 0;
+
+}
+
+#collapse .card-header{
+    background: none;
+    border-bottom: none;
+}
+
+#collapse .card-body{
+    color: gray;
+}
+
+.place-order{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #272727;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>home</title>
+    </head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Furni</a>
+          </div>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+          <ul id="ul2" class="nav">
+<a href="#"><li class="active"><i class="fa fa-user"></i></li></a>
+            <a href="cart.html"><li class="active"><i class="fa fa-shopping-bag	"></i></li></a>          </ul>
+        </div>
+      </nav>
+    
+      <div class="row" id="homesection">
+        <div class="col">
+            <h1>Cart</h1>
+        </div>
+        <div class="col-6">
+            <img src="img/couch.png" alt="">
+        </div>
+        
+      </div>
+
+      <div class="cartsection">
+      <table id="cart-table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="cart-item">
+                <td><img src="img/nordic chair.png" alt="Product 1"></td>
+                <td>Product 1</td>
+                <td>$49.00</td>
+                <td>
+                    <button class="quantity-decrease">-</button>
+                    <input type="number" value="1" class="quantity">
+                    <button class="quantity-increase">+</button>
+                </td>
+                <td class="total">$49.00</td>
+                <td><button class="remove-item">x</button></td>
+            </tr>
+            <tr class="cart-item">
+                <td><img src="img/kruzo aero chair.png" alt="Product 2"></td>
+                <td>Product 2</td>
+                <td>$49.00</td>
+                <td>
+                    <button class="quantity-decrease">-</button>
+                    <input type="number" value="1" class="quantity">
+                    <button class="quantity-increase">+</button>
+                </td>
+                <td class="total">$49.00</td>
+                <td><button class="remove-item">x</button></td>
+            </tr>
+        </tbody>
+    </table></div>
+
+    <div id="couponsection" class="row">
+        <div class="col-7">
+            <div class="cart-update">
+                <button>Update Cart</button>
+                <button>Continue Shopping</button>
+            </div>
+            <div class="coupon-input">
+                <h4>Coupon</h4>
+                <p>Enter your coupon code if you have one.</p>
+                <form action="#">
+                    <input type="text" placeholder="Coupon Code">
+                    <button type="submit">Apply Coupon</button>
+                </form>
+            </div>
+        </div>
+        <div id="rightside" class="col">
+            <div class="content">
+            <h3>CART TOTALS</h3>
+            <div>
+                <p>Subtotal <strong>$230.00</strong></p>
+                <p>Total <strong>$230.00</strong></p>
+            </div>
+            <a href="checkout.html"><button>Proceed to Checkout</button></a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="lastsection" class="row">
+        <div id="subscribe" class="row">
+          <div class="col-7">
+            <p><i class="fa fa-envelope"></i> Subscribe to Newsletter</p>
+            <form  id="myForm" action="#">
+              <input id="input1" type="text" placeholder="Enter your name">
+              <input id="input2" type="email" placeholder="Enter your email">
+              <button><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div id="img" class="col">
+            <img src="img/sofa.png">
+          </div>
+        </div>
+        <div id="details-row" class="row">
+          <div class="brand">Furni.</div>
+          <div class="details">
+            <div class="text">
+              <p>Donec facilisis quam ut purus rutrum lobortis.
+               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+               <div id="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="about">
+              <p>About us</p>
+              <p>Services</p>
+              <p>Blog</p>
+              <p>Contact us</p>
+              
+              
+            </div>
+            <div class="about">
+              <p>Support</p>
+              <p>Knowledge</p>
+              <p>Live chat</p>                  
+              
+            </div>
+            <div class="about">
+              <p>Jobs</p>
+              <p>Our team</p>
+              <p>Leadership</p>
+              <p>Privacy Policy</p> 
+            </div>
+            <div class="about">
+              <p>Nordic Chair</p>
+              <p>Kruzo Aero</p>
+              <p>Ergonomic Chair</p> 
+            </div>
+            
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+          <p class="Copyright">
+            Copyright ©2024. All Rights Reserved. — Designed with love by <a href="#">ayoubcode.co</a> Distributed By ThemeWagon
+          </p>
+          <div class="Privacy">
+           <p>Terms & Conditions</p>
+           <p>Privacy Policy</p> 
+          </div>
+          
+        </div>
+      </div>
+    
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

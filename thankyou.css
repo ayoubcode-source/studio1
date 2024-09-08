@@ -1,0 +1,48 @@
+.thanks{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks div{
+    text-align: center;
+}
+
+.thanks i{
+    color: #3c5a4f;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.thanks h1{
+    font-size: 80px;
+}
+
+.thanks h5{
+    color: gray;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.thanks button{
+       background-color: #272727;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: .2s; 
+}
+
+
+
+.thanks button:hover{
+    background-color: #111111;
+    cursor: pointer;
+}
+

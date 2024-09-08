@@ -1,0 +1,40 @@
+#homesection{
+    height: 25rem;
+}
+
+#firstsection{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: 55rem;
+    display: flex;
+}
+
+#firstsection #product{
+    border-radius: 20px;
+    height: 23rem;
+    padding: 0;
+    text-decoration: none;
+    color: #272727;
+    position: relative;
+    transition: .2s;
+}
+
+#firstsection .p-element{
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+#firstsection img{
+    height: 15rem;
+    width: 14rem;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: transform .3s ease;
+
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="checkout.css">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>home</title>
+    </head>
+<body>
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Furni</a>
+          </div>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+          <ul id="ul2" class="nav">
+            <a href="#"><li class="active"><i class="fa fa-user"></i></li></a>
+            <a href="cart.html"><li class="active"><i class="fa fa-shopping-bag	"></i></li></a>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row" id="homesection">
+        <div class="col">
+            <h1>Checkout</h1>
+        </div>
+        <div class="col-6">
+            <img src="img/couch.png" alt="">
+        </div>
+      </div>
+
+      <div class="checkout-container">
+        <div id="notice">
+            <p>Returning customer? <a href="#">Click here</a> to login</p>
+        </div>
+
+        <div id="checkout-process" class="row">
+            <div id="Billing-details" class="col">
+                <h3>Billing Details</h3>
+                <div class="Billing-details">
+                    <label for="country">Country <span>*</span></label>
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Select a country</option>
+                        <option value="usa">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <div class="name-input">
+                        <div>
+                            <label for="first-name">First Name <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        
+                    </div>
+                    
+                    <label for="company-name">Company Name <span>*</span></label>
+                    <input type="text">
+                    <div class="address">
+                        <label for="address">Address <span>*</span></label>
+                        <input class="street-input" type="text" placeholder="Street address">
+                        <input type="text" placeholder="Apartment, suite, unit etc.(optional)">
+                    </div>
+                 <div class="state-name-container">
+                    <div class="state-name">
+                    <div>
+                        <label for="state-name">State / Country <span>*</span></label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="zip-name">Posta / Zip <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="state-name">
+                    <div>
+                        <label for="zip-name">Email Address <span>*</span></label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="phone">Phone <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                 </div>   
+                   
+                <div class="collapse-section">
+                    <input type="checkbox" id="toggle" >
+                    <label for="toggle" class="toggle-label">Create an account?</label>
+                    
+                    <div class="collapsible-content">
+                        <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.
+                        </p>
+                        <label for="password">Account Password</label>
+                        <input type="password">
+                        <!-- Add more content here -->
+                    </div>
+                </div>
+                <div class="collapse-section">
+                    <input type="checkbox" id="ship" >
+                    <label for="ship" class="toggle-label">Ship To Different Address?</label>
+                    
+                    <div class="collapsible-content">
+                        <label for="country">Country <span>*</span></label>
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Select a country</option>
+                        <option value="usa">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <div class="name-input">
+                        <div>
+                            <label for="first-name">First Name <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name <span>*</span></label>
+                            <input type="text">
+                        </div>
+                        
+                    </div>
+                    
+                    <label for="company-name">Company Name <span>*</span></label>
+                    <input type="text">
+                    <div class="address">
+                        <label for="address">Address <span>*</span></label>
+                        <input class="street-input" type="text" placeholder="Street address">
+                        <input type="text" placeholder="Apartment, suite, unit etc.(optional)">
+                    </div>
+                    
+                   <div class="state-name">
+                    <div>
+                        <label for="state-name">State / Country <span>*</span></label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="zip-name">Posta / Zip <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="state-name">
+                    <div>
+                        <label for="zip-name">Email Address <span>*</span></label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="phone">Phone <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                        <!-- Add more content here -->
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h3 class="coupon-code">Coupon Code</h3>
+                    <div class="coupon-check">
+                        <p>Enter your coupon code if you have one</p>
+                        <form action="#">
+                            <input type="text" placeholder="Coupon Code">
+                            <button>Apply</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="order-title">Your Order</h3>
+                    <div class="your-order">
+                        <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Product</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Top Up T-Shirt x 1</td>
+                                    <td>$250.00</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Polo Shirt x 1</td>
+                                    <td>$100.00</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Cart Subtotal</td>
+                                    <td>$350.00</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Order Total</th>
+                                    <th>$350.00</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        
+                        <div id="collapse">
+                            <div class="container mt-5">                            
+                                <!-- Collapse 1 -->
+                                <div class="card mb-2">
+                                  <div class="card-header">
+                                    <a class="btn btn-link" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                                      Paypal
+                                    </a>
+                                  </div>
+                                  <div id="collapse1" class="collapse">
+                                    <div class="card-body">
+                                        Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                    </div>
+                                  </div>
+                                </div>
+                            
+                                <!-- Collapse 2 -->
+                                <div class="card mb-2">
+                                  <div class="card-header">
+                                    <a class="btn btn-link" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
+                                        Direct Bank Transfer
+                                    </a>
+                                  </div>
+                                  <div id="collapse2" class="collapse">
+                                    <div class="card-body">
+                                        Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                    </div>
+                                  </div>
+                                </div>
+                            
+                                <!-- Collapse 3 -->
+                                <div class="card mb-2">
+                                  <div class="card-header">
+                                    <a class="btn btn-link" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
+                                        Cheque Payment
+                                    </a>
+                                  </div>
+                                  <div id="collapse3" class="collapse">
+                                    <div class="card-body">
+                                        Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                                    </div>
+                                  </div>
+                                </div>
+                            
+                              </div>
+                        </div>
+
+                        <button class="place-order">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+      <div id="lastsection" class="row">
+        <div id="subscribe" class="row">
+          <div class="col-7">
+            <p><i>..</i> Subscribe to Newsletter</p>
+            <form  id="myForm" action="#">
+              <input id="input1" type="text" placeholder="Enter your name">
+              <input id="input2" type="email" placeholder="Enter your email">
+              <button><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div id="img" class="col">
+            <img src="img/sofa.png">
+          </div>
+        </div>
+        <div id="details-row" class="row">
+          <div class="brand">Furni.</div>
+          <div class="details">
+            <div class="text">
+              <p>Donec facilisis quam ut purus rutrum lobortis.
+               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+               <div id="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="about">
+              <p>About us</p>
+              <p>Services</p>
+              <p>Blog</p>
+              <p>Contact us</p>
+              
+              
+            </div>
+            <div class="about">
+              <p>Support</p>
+              <p>Knowledge</p>
+              <p>Live chat</p>                  
+              
+            </div>
+            <div class="about">
+              <p>Jobs</p>
+              <p>Our team</p>
+              <p>Leadership</p>
+              <p>Privacy Policy</p> 
+            </div>
+            <div class="about">
+              <p>Nordic Chair</p>
+              <p>Kruzo Aero</p>
+              <p>Ergonomic Chair</p> 
+            </div>
+            
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+          <p class="Copyright">
+            Copyright ©2024. All Rights Reserved. — Designed with love by <a href="#">ayoubcode.co</a> Distributed By ThemeWagon
+          </p>
+          <div class="Privacy">
+           <p>Terms & Conditions</p>
+           <p>Privacy Policy</p> 
+          </div>
+          
+        </div>
+      </div>
+      
+
+
+
+
+
+
+      <script src="js/popper.min.js"></script>
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/checkout.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
